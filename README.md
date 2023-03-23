@@ -1,0 +1,2 @@
+# MediaBrowserClient
+MediaSession媒体播放框架使用，并使用通知栏音乐系统风格demo
