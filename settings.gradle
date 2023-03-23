@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+//        google()
+        maven {
+            url "https://maven.aliyun.com/repository/google"
+        }
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+//        google()
+        maven {
+            url "https://maven.aliyun.com/repository/google"
+        }
+        mavenCentral()
+    }
+}
+rootProject.name = "MediaSessionDemo1"
+include ':app'
